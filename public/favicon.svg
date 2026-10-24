@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="favGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f8fafc"/>
+    </linearGradient>
+    <filter id="favShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <!-- Background Badge -->
+  <rect width="64" height="64" rx="16" fill="url(#favGrad)" stroke="#e2e8f0" stroke-width="2"/>
+  
+  <!-- JobSutraa J-Icon Figure -->
+  <!-- Orange Head -->
+  <circle cx="28" cy="18" r="6" fill="#ff5c00"/>
+  
+  <!-- Navy J Stem & Curve -->
+  <path d="M25 27h6v18c0 4.418-3.582 7-7.5 7S16 48.418 16 44v-2h5v2c0 1.657 1.119 2.5 2.5 2.5s2.5-.843 2.5-2.5V27z" fill="#0f172a"/>
+  
+  <!-- Orange Tie inside J -->
+  <path d="M26.5 27l1.5 8 1.5-8h-3z" fill="#ff5c00"/>
+  <polygon points="28,35 29.5,41 28,43 26.5,41" fill="#ff5c00"/>
+
+  <!-- Orange S Accent dot/curve -->
+  <circle cx="44" cy="27" r="4.5" fill="#ff5c00"/>
+  <path d="M47 36c0-2.5-2-4-4.5-4s-4.5 1.5-4.5 4c0 3.5 6 3 6 6s-2.5 3-4.5 3c-2.5 0-4-1.5-4-3.5h4c0 .8.9 1.5 2 1.5s2-.7 2-1.5c0-1.8-6-1.5-6-5.5 0-3.5 2.7-5.5 6.5-5.5s6 2 6 5.5h-5z" fill="#0f172a"/>
+</svg>
