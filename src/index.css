@@ -2708,8 +2708,43 @@ input {
   .why-choose-grid {
     grid-template-columns: 1fr;
   }
+  /* Balanced 2-Column Responsive Footer */
   .footer-main-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 28px 20px !important;
+  }
+  .footer-brand-col {
+    grid-column: 1 / -1 !important;
+    width: 100% !important;
+    margin-bottom: 8px !important;
+  }
+  .footer-brand-col .footer-address-badge {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+  .footer-brand-col .footer-phone-badge {
+    width: fit-content !important;
+    max-width: 100% !important;
+  }
+  .footer-vertical-divider {
+    display: none !important;
+  }
+  .footer-links-col {
+    width: 100% !important;
+  }
+  .footer-social-col {
+    grid-column: 1 / -1 !important;
+    width: 100% !important;
+    border-top: 1px solid #e2e8f0 !important;
+    padding-top: 24px !important;
+    margin-top: 6px !important;
+  }
+  .footer-bottom-row {
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+    gap: 8px !important;
+    padding-top: 18px !important;
   }
   .floating-card {
     display: none !important;
